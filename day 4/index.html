@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flex Box</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Times New Roman", serif;
+    background:#ffffff;
+}
+
+h1{
+    text-align:center;
+    margin:20px 0;
+}
+
+.container{
+    width:600px;
+    margin:30px auto;
+    border:1px solid gray;
+    padding:10px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.box{
+    width:120px;
+    height:120px;
+    background:#9ACD32;
+    border-radius:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    color:black;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Flex Box</h1>
+
+<div class="container">
+
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+
+</div>
+
+</body>
+</html>
